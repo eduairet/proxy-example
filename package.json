@@ -1,0 +1,31 @@
+{
+  "name": "proxy-example",
+  "version": "1.0.0",
+  "description": "Proxy contract example",
+  "main": "hardhat.config.ts",
+  "scripts": {
+    "compile": "npx hardhat run compile",
+    "test": "npx hardhat run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduairet/proxy-example.git"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "solidity",
+    "hardhat",
+    "typescript"
+  ],
+  "author": "Alchemy University / Eduardo Aire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduairet/proxy-example/issues"
+  },
+  "homepage": "https://github.com/eduairet/proxy-example#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
+  }
+}
