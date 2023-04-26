@@ -4,8 +4,8 @@
   "description": "Proxy contract example",
   "main": "hardhat.config.ts",
   "scripts": {
-    "compile": "npx hardhat run compile",
-    "test": "npx hardhat run test"
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
   },
   "repository": {
     "type": "git",

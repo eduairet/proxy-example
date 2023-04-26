@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# Proxy Contract Example
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+-   This [contract](./contracts/Proxy.sol) is for educational purposes and it’s not recommended to use it in real life projects
+-   Go to [tests](./test/Proxy.ts) to check the way the contract can be updated and how you can use the implemented contracts
+    -   It checks that uses `Logic1` to update `x`
+    -   It checks that makes an upgrade from `Logic1` to `Logic2` and changes `x` with `Logic2.changeX()`
+    -   It checks that `Logic2.tripleX()` can be called
+    -   It checks that `x` value set in the first implementation is updated in the second implementation with `Logic2.tripleX()`
+-   Try the tests with `npm run test` or `npx hardhat test`
